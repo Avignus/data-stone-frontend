@@ -1,0 +1,47 @@
+.navbar-wrapper {
+  width: 140%;
+  margin-left: -20%;
+  flex: 1;
+  background-color: green;
+  padding: 0;
+  margin-bottom: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+header h1 {
+  color: #dfdfdf;
+  font-size: 40px;
+}
+
+header a {
+  color: #bbb;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header nav a {
+  cursor: pointer;
+}
+
+header a.router-link-active {
+  color: #444;
+  font-weight: bold;
+}
+
+header nav {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.options {
+  width: 150px;
+  cursor: pointer;
+}
